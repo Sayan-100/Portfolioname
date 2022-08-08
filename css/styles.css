@@ -176,3 +176,10 @@ a:hover {
 .dpx {
     border-radius: 100%;
 }
+
+.brand-name {
+    font-style: bold;
+    font-weight: 700;
+    color: #002B5B;
+    font-size: 25px;
+}
