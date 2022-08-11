@@ -11,10 +11,11 @@
 
 <body>
     <div id="navbar" class="bottom-container">
-        <a class="footer-link" href="https://leetcode.com/bsayan289/">Leetcode</a>
-        <a class="footer-link" href="https://www.linkedin.com/in/sayan-biswas-7838561a0/">LinkedIn</a>
-        <a class="footer-link" href="https://auth.geeksforgeeks.org/user/bsayan289/practice">Geeks for Geeks</a>
-        <a class="footer-link" href="https://github.com/">Github</a>
+        <a class="footer-link" href="#">Home</a>
+        <a class="footer-link" href="#about">About</a>
+        <a class="footer-link" href="#skills">Skills</a>
+        <a class="footer-link" href="#experience">Experience</a>
+        <a class="footer-link" href="#projects">Projects</a>
         <a class="footer-link" href="https://drive.google.com/file/d/1SzI7ZCu5E1DPh-wcdUWjrDRW0Ktuggwp/view?usp=sharing">Resume</a>
     </div>
     <div class="top-container">
@@ -31,13 +32,13 @@
     </div>
 
     <div class="middle-container">
-        <div class="profile">
+        <div id="about" class="profile">
             <img class="dpx" src="images/Sayan.jpg" alt="sayan profile picture">
             <h2>Hello There.</h2>
             <p class="intro">I'm a Software Engineer Intern at FiftyFive Technologies . I love learning new technologies and implementing them. </p>
         </div>
         <hr>
-        <div class="skills">
+        <div id = "skills"class="skills">
             <h2>My Skills.</h2>
             <div class="skill-row-1">
                 <img class="computer-img" src="images/computer.png" alt="">
@@ -51,7 +52,7 @@
             </div>
         </div>
         <hr>
-        <div class="skills">
+        <div id = "experience" class="skills">
             <h2>My Experience.</h2>
             <div class="skill-row">
                 <img class="chilli-img" src="data:image/png;base64,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"
@@ -92,7 +93,7 @@
         <hr>
 <!-- sections are good there -->
 
-        <div class="skills">
+        <div id = "projects" class="skills">
             <h2>My Projects.</h2>
             <div class="skill-row-1">
                 <img class="computer-img" src="https://p.kindpng.com/picc/s/325-3256395_tent-pitches-campingni-circle-hd-png-download.png" alt="">
@@ -137,7 +138,7 @@
         <a class="footer-link " href="https://leetcode.com/bsayan289/ ">Leetcode</a>
         <a class="footer-link " href="https://www.linkedin.com/in/sayan-biswas-7838561a0/ ">LinkedIn</a>
         <a class="footer-link " href="https://auth.geeksforgeeks.org/user/bsayan289/practice ">Geeks for Geeks</a>
-        <a class="footer-link " href="https://github.com/ ">Github</a>
+        <a class="footer-link " href="https://github.com/Sayan-100">Github</a>
         <p class="Copyright ">© 2022 Sayan Biswas.</p>
     </div>
 
